@@ -5,11 +5,8 @@ export default function Header() {
     <>
       <nav className="navbar bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand">Bootstrap</a>
-          <div>
-            <button>dark</button>
-            <button>light</button>
-          </div>
+          <a className="navbar-brand">Tasker</a>
+
         </div>
       </nav>
     </>
