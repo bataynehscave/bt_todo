@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function TaskCard({ task, setTask }) {
+export default function TaskCard({ task, setTask, addTask }) {
   return (
     <div className="d-flex justify-content-center">
       <div class="card col-6    ">

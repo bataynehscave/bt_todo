@@ -9,13 +9,18 @@ function App() {
     { id: 32, name: "do home work", finished: true },
     { id: 66, name: "do chores", finished: false },
   ]);
-  const [task, setTask] = useState({});
+  const [task, setTask] = useState({'id':null, 'name':null, 'finished':null});
   console.log({ taskList });
   return (
     <>
       <Header />
       <br />
-      <InputField />
+      <InputField
+        tasks={taskList}
+        task={task}
+        setTask={setTask}
+        setTaskList={setTaskList}
+      />
 
       <hr />
       <TaskList
